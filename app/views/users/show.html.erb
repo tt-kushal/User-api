@@ -1,0 +1,7 @@
+<p><%= notice %></p>
+<h1> User Details</h1>
+<p><strong> First Name:</strong> <%=@user.first_name %></p>
+<p><strong> Last Name:</strong> <%=@user.last_name %></p>
+<p><strong> Email:</strong> <%=@user.email %></p>
+
+<%= link_to 'back' ,users_path%> | <td><%= link_to 'edit',edit_user_path(@user) %></td>

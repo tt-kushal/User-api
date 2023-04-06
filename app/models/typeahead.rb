@@ -1,0 +1,2 @@
+class Typeahead < ApplicationRecord
+end
